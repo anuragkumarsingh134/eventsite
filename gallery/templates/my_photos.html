@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Photos</title>
+</head>
+<body>
+<h2>My Event Photos</h2>
+{% for photo in photos %}
+  <img src="{{ photo.file.url }}" width="200" style="margin:10px;">
+{% empty %}
+  <p>No photos found for you.</p>
+{% endfor %}
+</body>
+</html>
