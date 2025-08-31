@@ -1,15 +1,9 @@
-# Python
+venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Virtual environment
-venv/
-
-# Django
 *.sqlite3
 db.sqlite3
-/media/
-
-/.env
+media/
+.env
